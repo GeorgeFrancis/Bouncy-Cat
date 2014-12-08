@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B294CA819ADC1B700AF686E /* mainStartPage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B294CA719ADC1B700AF686E /* mainStartPage2.png */; };
+		1B294CAA19ADC1E100AF686E /* gameBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B294CA919ADC1E100AF686E /* gameBackground.png */; };
+		1B2FF47019742ACD007925A5 /* cat1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2FF46719742ACD007925A5 /* cat1.png */; };
+		1B2FF47119742ACD007925A5 /* cat2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2FF46819742ACD007925A5 /* cat2.png */; };
+		1B2FF47219742ACD007925A5 /* catElectric1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2FF46919742ACD007925A5 /* catElectric1.png */; };
+		1B2FF47319742ACD007925A5 /* catElectric2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2FF46A19742ACD007925A5 /* catElectric2.png */; };
+		1B2FF47519742ACD007925A5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2FF46C19742ACD007925A5 /* icon.png */; };
+		1B2FF47619742ACD007925A5 /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2FF46D19742ACD007925A5 /* launchImage.png */; };
+		1B2FF480197447B1007925A5 /* bouncyCat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B2FF47D19743E2E007925A5 /* bouncyCat.ttf */; };
+		1B2FF482197448B1007925A5 /* GROBOLD-2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B2FF481197448B1007925A5 /* GROBOLD-2.ttf */; };
+		1B2FF48519748726007925A5 /* buzzBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2FF48319748726007925A5 /* buzzBar.png */; };
+		1B2FF48619748726007925A5 /* buzzBar2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2FF48419748726007925A5 /* buzzBar2.png */; };
+		1B864E2519851AFD00B5CE32 /* mainStartPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B864E2119851AFD00B5CE32 /* mainStartPage.png */; };
+		1B864E2619851AFD00B5CE32 /* mainStartPageIpad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B864E2219851AFD00B5CE32 /* mainStartPageIpad.png */; };
+		1B864E2919851C7100B5CE32 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B864E2719851C7100B5CE32 /* background.png */; };
+		1B864E2A19851C7100B5CE32 /* backgroundIpad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B864E2819851C7100B5CE32 /* backgroundIpad.png */; };
+		1B864E341986E62900B5CE32 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B864E331986E62900B5CE32 /* MasterViewController.m */; };
+		1BAE7AA4195561AD0074EA11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE7AA3195561AD0074EA11 /* Foundation.framework */; };
+		1BAE7AA6195561AD0074EA11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE7AA5195561AD0074EA11 /* CoreGraphics.framework */; };
+		1BAE7AA8195561AD0074EA11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE7AA7195561AD0074EA11 /* UIKit.framework */; };
+		1BAE7AB0195561AD0074EA11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE7AAF195561AD0074EA11 /* main.m */; };
+		1BAE7AB4195561AD0074EA11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE7AB3195561AD0074EA11 /* AppDelegate.m */; };
+		1BAE7AB7195561AD0074EA11 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE7AB5195561AD0074EA11 /* Main_iPhone.storyboard */; };
+		1BAE7ABA195561AD0074EA11 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE7AB8195561AD0074EA11 /* Main_iPad.storyboard */; };
+		1BAE7ABD195561AD0074EA11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE7ABC195561AD0074EA11 /* ViewController.m */; };
+		1BAE7AC6195561AD0074EA11 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE7AC5195561AD0074EA11 /* XCTest.framework */; };
+		1BAE7AC7195561AD0074EA11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE7AA3195561AD0074EA11 /* Foundation.framework */; };
+		1BAE7AC8195561AD0074EA11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE7AA7195561AD0074EA11 /* UIKit.framework */; };
+		1BAE7AD0195561AD0074EA11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE7ACE195561AD0074EA11 /* InfoPlist.strings */; };
+		1BAE7AD2195561AD0074EA11 /* Bounce_CatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE7AD1195561AD0074EA11 /* Bounce_CatTests.m */; };
+		1BAE7AE11955637B0074EA11 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE7AE01955637B0074EA11 /* GameViewController.m */; };
+		1BAE7AED1955718F0074EA11 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE7AEC1955718F0074EA11 /* green.png */; };
+		1BB69A9D19D8509E004D9964 /* Bounce Cat-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE7AAB195561AD0074EA11 /* Bounce Cat-Info.plist */; };
+		1BB69AE619D8556C004D9964 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB69AE519D8556C004D9964 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BAE7AC9195561AD0074EA11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BAE7A98195561AD0074EA11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BAE7A9F195561AD0074EA11;
+			remoteInfo = "Bounce Cat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B294CA719ADC1B700AF686E /* mainStartPage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainStartPage2.png; sourceTree = "<group>"; };
+		1B294CA919ADC1E100AF686E /* gameBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameBackground.png; sourceTree = "<group>"; };
+		1B2FF46719742ACD007925A5 /* cat1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat1.png; sourceTree = "<group>"; };
+		1B2FF46819742ACD007925A5 /* cat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat2.png; sourceTree = "<group>"; };
+		1B2FF46919742ACD007925A5 /* catElectric1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catElectric1.png; sourceTree = "<group>"; };
+		1B2FF46A19742ACD007925A5 /* catElectric2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catElectric2.png; sourceTree = "<group>"; };
+		1B2FF46C19742ACD007925A5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1B2FF46D19742ACD007925A5 /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
+		1B2FF47D19743E2E007925A5 /* bouncyCat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bouncyCat.ttf; sourceTree = "<group>"; };
+		1B2FF481197448B1007925A5 /* GROBOLD-2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GROBOLD-2.ttf"; sourceTree = "<group>"; };
+		1B2FF48319748726007925A5 /* buzzBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buzzBar.png; sourceTree = "<group>"; };
+		1B2FF48419748726007925A5 /* buzzBar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buzzBar2.png; sourceTree = "<group>"; };
+		1B864E2119851AFD00B5CE32 /* mainStartPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainStartPage.png; sourceTree = "<group>"; };
+		1B864E2219851AFD00B5CE32 /* mainStartPageIpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainStartPageIpad.png; sourceTree = "<group>"; };
+		1B864E2719851C7100B5CE32 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		1B864E2819851C7100B5CE32 /* backgroundIpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundIpad.png; sourceTree = "<group>"; };
+		1B864E321986E62900B5CE32 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		1B864E331986E62900B5CE32 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		1BAE7AA0195561AD0074EA11 /* Bounce Cat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bounce Cat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAE7AA3195561AD0074EA11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1BAE7AA5195561AD0074EA11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1BAE7AA7195561AD0074EA11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1BAE7AAB195561AD0074EA11 /* Bounce Cat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bounce Cat-Info.plist"; sourceTree = "<group>"; };
+		1BAE7AAD195561AD0074EA11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BAE7AAF195561AD0074EA11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BAE7AB1195561AD0074EA11 /* Bounce Cat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bounce Cat-Prefix.pch"; sourceTree = "<group>"; };
+		1BAE7AB2195561AD0074EA11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BAE7AB3195561AD0074EA11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BAE7AB6195561AD0074EA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1BAE7AB9195561AD0074EA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1BAE7ABB195561AD0074EA11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BAE7ABC195561AD0074EA11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BAE7AC4195561AD0074EA11 /* Bounce CatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bounce CatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAE7AC5195561AD0074EA11 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1BAE7ACD195561AD0074EA11 /* Bounce CatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bounce CatTests-Info.plist"; sourceTree = "<group>"; };
+		1BAE7ACF195561AD0074EA11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BAE7AD1195561AD0074EA11 /* Bounce_CatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bounce_CatTests.m; sourceTree = "<group>"; };
+		1BAE7ADF1955637B0074EA11 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../GameViewController.h; sourceTree = "<group>"; };
+		1BAE7AE01955637B0074EA11 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../GameViewController.m; sourceTree = "<group>"; };
+		1BAE7AEC1955718F0074EA11 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		1BB69A9F19D852E0004D9964 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		1BB69AA019D852E0004D9964 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		1BB69AA119D852E0004D9964 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		1BB69AA219D852E0004D9964 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		1BB69AA319D852E0004D9964 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		1BB69AA419D852E0004D9964 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		1BB69AA519D852E0004D9964 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		1BB69AA619D852E0004D9964 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		1BB69AA719D852E0004D9964 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		1BB69AA819D852E0004D9964 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		1BB69AA919D852E0004D9964 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		1BB69AAA19D852E0004D9964 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		1BB69AAB19D852E0004D9964 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		1BB69AAC19D852E0004D9964 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		1BB69AAD19D852E0004D9964 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		1BB69AAE19D852E0004D9964 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		1BB69AAF19D852E0004D9964 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1BB69AB019D852E0004D9964 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		1BB69AE519D8556C004D9964 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BAE7A9D195561AD0074EA11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAE7AA6195561AD0074EA11 /* CoreGraphics.framework in Frameworks */,
+				1BAE7AA8195561AD0074EA11 /* UIKit.framework in Frameworks */,
+				1BAE7AA4195561AD0074EA11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BAE7AC1195561AD0074EA11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAE7AC6195561AD0074EA11 /* XCTest.framework in Frameworks */,
+				1BAE7AC8195561AD0074EA11 /* UIKit.framework in Frameworks */,
+				1BAE7AC7195561AD0074EA11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BAE7A97195561AD0074EA11 = {
+			isa = PBXGroup;
+			children = (
+				1BB69A9E19D852E0004D9964 /* AppIcon.appiconset */,
+				1B864E321986E62900B5CE32 /* MasterViewController.h */,
+				1B864E331986E62900B5CE32 /* MasterViewController.m */,
+				1B2FF481197448B1007925A5 /* GROBOLD-2.ttf */,
+				1BAE7AA9195561AD0074EA11 /* Bounce Cat */,
+				1BAE7ACB195561AD0074EA11 /* Bounce CatTests */,
+				1BAE7AA2195561AD0074EA11 /* Frameworks */,
+				1BAE7AA1195561AD0074EA11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BAE7AA1195561AD0074EA11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE7AA0195561AD0074EA11 /* Bounce Cat.app */,
+				1BAE7AC4195561AD0074EA11 /* Bounce CatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BAE7AA2195561AD0074EA11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE7AA3195561AD0074EA11 /* Foundation.framework */,
+				1BAE7AA5195561AD0074EA11 /* CoreGraphics.framework */,
+				1BAE7AA7195561AD0074EA11 /* UIKit.framework */,
+				1BAE7AC5195561AD0074EA11 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BAE7AA9195561AD0074EA11 /* Bounce Cat */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE7AB2195561AD0074EA11 /* AppDelegate.h */,
+				1BAE7AB3195561AD0074EA11 /* AppDelegate.m */,
+				1BAE7AB5195561AD0074EA11 /* Main_iPhone.storyboard */,
+				1BAE7AB8195561AD0074EA11 /* Main_iPad.storyboard */,
+				1BAE7ABB195561AD0074EA11 /* ViewController.h */,
+				1BAE7ABC195561AD0074EA11 /* ViewController.m */,
+				1BAE7ADF1955637B0074EA11 /* GameViewController.h */,
+				1BAE7AE01955637B0074EA11 /* GameViewController.m */,
+				1BB69AE519D8556C004D9964 /* Images.xcassets */,
+				1BAE7AAA195561AD0074EA11 /* Supporting Files */,
+			);
+			path = "Bounce Cat";
+			sourceTree = "<group>";
+		};
+		1BAE7AAA195561AD0074EA11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B294CA719ADC1B700AF686E /* mainStartPage2.png */,
+				1B864E2119851AFD00B5CE32 /* mainStartPage.png */,
+				1B864E2219851AFD00B5CE32 /* mainStartPageIpad.png */,
+				1B294CA919ADC1E100AF686E /* gameBackground.png */,
+				1B864E2719851C7100B5CE32 /* background.png */,
+				1B864E2819851C7100B5CE32 /* backgroundIpad.png */,
+				1BAE7AEC1955718F0074EA11 /* green.png */,
+				1B2FF46719742ACD007925A5 /* cat1.png */,
+				1B2FF46819742ACD007925A5 /* cat2.png */,
+				1B2FF46919742ACD007925A5 /* catElectric1.png */,
+				1B2FF46A19742ACD007925A5 /* catElectric2.png */,
+				1B2FF46C19742ACD007925A5 /* icon.png */,
+				1B2FF46D19742ACD007925A5 /* launchImage.png */,
+				1B2FF48319748726007925A5 /* buzzBar.png */,
+				1B2FF48419748726007925A5 /* buzzBar2.png */,
+				1BAE7AAB195561AD0074EA11 /* Bounce Cat-Info.plist */,
+				1BAE7AAC195561AD0074EA11 /* InfoPlist.strings */,
+				1BAE7AAF195561AD0074EA11 /* main.m */,
+				1BAE7AB1195561AD0074EA11 /* Bounce Cat-Prefix.pch */,
+				1B2FF47D19743E2E007925A5 /* bouncyCat.ttf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BAE7ACB195561AD0074EA11 /* Bounce CatTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE7AD1195561AD0074EA11 /* Bounce_CatTests.m */,
+				1BAE7ACC195561AD0074EA11 /* Supporting Files */,
+			);
+			path = "Bounce CatTests";
+			sourceTree = "<group>";
+		};
+		1BAE7ACC195561AD0074EA11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE7ACD195561AD0074EA11 /* Bounce CatTests-Info.plist */,
+				1BAE7ACE195561AD0074EA11 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BB69A9E19D852E0004D9964 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				1BB69A9F19D852E0004D9964 /* Contents.json */,
+				1BB69AA019D852E0004D9964 /* Icon-120.png */,
+				1BB69AA119D852E0004D9964 /* Icon-40.png */,
+				1BB69AA219D852E0004D9964 /* Icon-40@2x.png */,
+				1BB69AA319D852E0004D9964 /* Icon-40@3x.png */,
+				1BB69AA419D852E0004D9964 /* Icon-60@2x.png */,
+				1BB69AA519D852E0004D9964 /* Icon-60@3x.png */,
+				1BB69AA619D852E0004D9964 /* Icon-72.png */,
+				1BB69AA719D852E0004D9964 /* Icon-72@2x.png */,
+				1BB69AA819D852E0004D9964 /* Icon-76.png */,
+				1BB69AA919D852E0004D9964 /* Icon-76@2x.png */,
+				1BB69AAA19D852E0004D9964 /* Icon-Small-50.png */,
+				1BB69AAB19D852E0004D9964 /* Icon-Small-50@2x.png */,
+				1BB69AAC19D852E0004D9964 /* Icon-Small.png */,
+				1BB69AAD19D852E0004D9964 /* Icon-Small@2x.png */,
+				1BB69AAE19D852E0004D9964 /* Icon-Small@3x.png */,
+				1BB69AAF19D852E0004D9964 /* Icon.png */,
+				1BB69AB019D852E0004D9964 /* Icon@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BAE7A9F195561AD0074EA11 /* Bounce Cat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BAE7AD5195561AD0074EA11 /* Build configuration list for PBXNativeTarget "Bounce Cat" */;
+			buildPhases = (
+				1BAE7A9C195561AD0074EA11 /* Sources */,
+				1BAE7A9D195561AD0074EA11 /* Frameworks */,
+				1BAE7A9E195561AD0074EA11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bounce Cat";
+			productName = "Bounce Cat";
+			productReference = 1BAE7AA0195561AD0074EA11 /* Bounce Cat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BAE7AC3195561AD0074EA11 /* Bounce CatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BAE7AD8195561AD0074EA11 /* Build configuration list for PBXNativeTarget "Bounce CatTests" */;
+			buildPhases = (
+				1BAE7AC0195561AD0074EA11 /* Sources */,
+				1BAE7AC1195561AD0074EA11 /* Frameworks */,
+				1BAE7AC2195561AD0074EA11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BAE7ACA195561AD0074EA11 /* PBXTargetDependency */,
+			);
+			name = "Bounce CatTests";
+			productName = "Bounce CatTests";
+			productReference = 1BAE7AC4195561AD0074EA11 /* Bounce CatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BAE7A98195561AD0074EA11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = GeorgeFrancis;
+				TargetAttributes = {
+					1BAE7A9F195561AD0074EA11 = {
+						DevelopmentTeam = RSWW858M46;
+					};
+					1BAE7AC3195561AD0074EA11 = {
+						TestTargetID = 1BAE7A9F195561AD0074EA11;
+					};
+				};
+			};
+			buildConfigurationList = 1BAE7A9B195561AD0074EA11 /* Build configuration list for PBXProject "Bounce Cat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BAE7A97195561AD0074EA11;
+			productRefGroup = 1BAE7AA1195561AD0074EA11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BAE7A9F195561AD0074EA11 /* Bounce Cat */,
+				1BAE7AC3195561AD0074EA11 /* Bounce CatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BAE7A9E195561AD0074EA11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2FF480197447B1007925A5 /* bouncyCat.ttf in Resources */,
+				1B2FF48619748726007925A5 /* buzzBar2.png in Resources */,
+				1BB69A9D19D8509E004D9964 /* Bounce Cat-Info.plist in Resources */,
+				1B864E2919851C7100B5CE32 /* background.png in Resources */,
+				1B2FF482197448B1007925A5 /* GROBOLD-2.ttf in Resources */,
+				1B294CAA19ADC1E100AF686E /* gameBackground.png in Resources */,
+				1B2FF47619742ACD007925A5 /* launchImage.png in Resources */,
+				1BAE7ABA195561AD0074EA11 /* Main_iPad.storyboard in Resources */,
+				1B2FF47319742ACD007925A5 /* catElectric2.png in Resources */,
+				1BB69AE619D8556C004D9964 /* Images.xcassets in Resources */,
+				1B294CA819ADC1B700AF686E /* mainStartPage2.png in Resources */,
+				1B864E2619851AFD00B5CE32 /* mainStartPageIpad.png in Resources */,
+				1B864E2519851AFD00B5CE32 /* mainStartPage.png in Resources */,
+				1B2FF47219742ACD007925A5 /* catElectric1.png in Resources */,
+				1BAE7AB7195561AD0074EA11 /* Main_iPhone.storyboard in Resources */,
+				1B2FF47519742ACD007925A5 /* icon.png in Resources */,
+				1B2FF47019742ACD007925A5 /* cat1.png in Resources */,
+				1B2FF47119742ACD007925A5 /* cat2.png in Resources */,
+				1B864E2A19851C7100B5CE32 /* backgroundIpad.png in Resources */,
+				1B2FF48519748726007925A5 /* buzzBar.png in Resources */,
+				1BAE7AED1955718F0074EA11 /* green.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BAE7AC2195561AD0074EA11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAE7AD0195561AD0074EA11 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BAE7A9C195561AD0074EA11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAE7AE11955637B0074EA11 /* GameViewController.m in Sources */,
+				1BAE7ABD195561AD0074EA11 /* ViewController.m in Sources */,
+				1B864E341986E62900B5CE32 /* MasterViewController.m in Sources */,
+				1BAE7AB4195561AD0074EA11 /* AppDelegate.m in Sources */,
+				1BAE7AB0195561AD0074EA11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BAE7AC0195561AD0074EA11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAE7AD2195561AD0074EA11 /* Bounce_CatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BAE7ACA195561AD0074EA11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BAE7A9F195561AD0074EA11 /* Bounce Cat */;
+			targetProxy = 1BAE7AC9195561AD0074EA11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BAE7AAC195561AD0074EA11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BAE7AAD195561AD0074EA11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1BAE7AB5195561AD0074EA11 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BAE7AB6195561AD0074EA11 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1BAE7AB8195561AD0074EA11 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BAE7AB9195561AD0074EA11 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1BAE7ACE195561AD0074EA11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BAE7ACF195561AD0074EA11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BAE7AD3195561AD0074EA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: George Francis (RSWW858M46)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: George Francis (RSWW858M46)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "f179a9a0-0e9e-4bc8-86ff-90c7eb5e1f14";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BAE7AD4195561AD0074EA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: George Francis (RSWW858M46)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: George Francis (RSWW858M46)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "f179a9a0-0e9e-4bc8-86ff-90c7eb5e1f14";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BAE7AD6195561AD0074EA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: George Francis (8V2QFZD9RM)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bounce Cat/Bounce Cat-Prefix.pch";
+				INFOPLIST_FILE = "Bounce Cat/Bounce Cat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f179a9a0-0e9e-4bc8-86ff-90c7eb5e1f14";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1BAE7AD7195561AD0074EA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: George Francis (8V2QFZD9RM)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bounce Cat/Bounce Cat-Prefix.pch";
+				INFOPLIST_FILE = "Bounce Cat/Bounce Cat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f179a9a0-0e9e-4bc8-86ff-90c7eb5e1f14";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1BAE7AD9195561AD0074EA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bounce Cat.app/Bounce Cat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bounce Cat/Bounce Cat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bounce CatTests/Bounce CatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1BAE7ADA195561AD0074EA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bounce Cat.app/Bounce Cat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bounce Cat/Bounce Cat-Prefix.pch";
+				INFOPLIST_FILE = "Bounce CatTests/Bounce CatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BAE7A9B195561AD0074EA11 /* Build configuration list for PBXProject "Bounce Cat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BAE7AD3195561AD0074EA11 /* Debug */,
+				1BAE7AD4195561AD0074EA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BAE7AD5195561AD0074EA11 /* Build configuration list for PBXNativeTarget "Bounce Cat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BAE7AD6195561AD0074EA11 /* Debug */,
+				1BAE7AD7195561AD0074EA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BAE7AD8195561AD0074EA11 /* Build configuration list for PBXNativeTarget "Bounce CatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BAE7AD9195561AD0074EA11 /* Debug */,
+				1BAE7ADA195561AD0074EA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BAE7A98195561AD0074EA11 /* Project object */;
+}
